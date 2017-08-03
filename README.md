@@ -6,3 +6,4 @@ In the case where the user does not have access to the Smartphone (battery low, 
 In cases where in the user enters an incorrect password repeatedly within a short period of time(3 incorrect tries per minute), the system automatically stops the acceptance of passwords from both the HC-05 Bluetooth module & the 4X4 keypad for a timeout period of 3 minutes. This will prevent hackers from brute forcing their way through the system. In such a case warning alarm or siren will be triggered by the 8051 microcontroller through a buzzer.
 Unlike conventional IR consumer electronics, there is no IR code used to unlock the device because of the use of Bluetooth in the system. This makes it tougher to extract the password during communication & increases the security of the system.
 
+![Block Diagram](/Documentation/Block%20Diagram.PNG?raw=true "Block Diagram")
